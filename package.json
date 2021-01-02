@@ -1,0 +1,22 @@
+{
+	"name" : "robclancy/stringlib",
+	
+"require": {
+		"php": ">=5.3.0",
+		"oodle/inflect": "*",
+		"patchwork/utf8": "1.0.*"
+	},
+	"require-dev": {
+		"phpunit/php-code-coverage": "1.2.*@dev"
+	},	
+	"autoload": {
+		"psr-0": {
+			"RobClancy\\StringLib": "src/"
+		},
+		"files": [
+            "src/RobClancy/StringLib/helpers.php"
+        ]
+	},
+	"minimum-stability": "dev"
+
+}
